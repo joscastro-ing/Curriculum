@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    display: flex;
+    width: 100%;
+}
+.contenedor1{
+    width: 30%;
+    background: cornflowerblue;
+    color: white;
+
+}
+.contenedor1 h2{
+    color: black;
+    border-bottom: black solid;
+    margin-left: 15px;
+    margin-right: 20%;
+}
+.contenedor1 p{
+    margin-left: 20px;
+}
+
+.foto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+
+}
+.contacto-items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.contacto-items a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.barra{
+    width: 80%;
+    height: 15px;
+    background: black;
+    margin-left: 20px;
+    
+}
+.progress__Java{
+    width: 75%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.progress__HTML{
+    width: 80%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.progress__Js{
+    width: 80%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.progress__Boot{
+    width: 40%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.progress__React{
+    width: 40%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.progress__Phy{
+    width: 40%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.progress__Ex{
+    width: 70%;
+    height: 15px;
+    background: white;
+    justify-content: end;
+}
+.idiomas{
+    margin-bottom: 20px;
+}
+.progress__Es{
+    width: 100%;
+    height: 15px;
+    background: white;
+}
+.progress__En{
+    width: 70%;
+    height: 15px;
+    background: white;
+}
+.contenedor2{
+    width: 70%;
+    margin-left: 20px;    
+}
+.contenedor2 h3{
+    color: black;
+    border-bottom: black solid;
+    margin-right: 20%;
+    margin-top: 0;
+}
+.contenedor2 h1{
+    margin-bottom: 0;
+}
+.contenedor2 h2{
+    color: black;
+    border-bottom: black solid;
+    margin-right: 20%;
+}
+.about-me{
+    width: 80%;
+}
+.education__content{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 39% 1% 60%;
+}
+
+.annio{
+    margin-right: 10px;
+    margin-left: auto;
+    padding: 0;
+}
+.line{
+    height: 100%;
+    background: black;
+    width: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.year{
+    height: 70px;
+}
+.descrip{
+    height: 70px;
+}
+.education-titulo{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.descripcion{
+    margin-left: 8px;
+    margin-top: 0;
+}
+.intereses__list{
+    list-style-type: none;
+}
+.intereses__list li{
+    margin: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .principal{
+        flex-direction: column;
+    }
+    .contenedor1{
+        width: 100%;
+    }
+    .contenedor2{
+        width: 100%;   
+    }
+}
+@media only screen and (max-width: 576px){
+    .year{
+        height: 200px;
+    }
+    .descrip{
+        height: 200px;
+    }
+}
